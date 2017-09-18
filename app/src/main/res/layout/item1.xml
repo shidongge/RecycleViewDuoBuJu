@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/item1_img1"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/item1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是标题"
+            android:textSize="20sp"
+
+            />
+        <TextView
+            android:id="@+id/item1_neirong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是内容"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:id="@+id/item1_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是时间"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
